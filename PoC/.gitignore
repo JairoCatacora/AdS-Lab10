@@ -1,0 +1,11 @@
+# entorno virtual y caches de Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# salidas de pruebas rápidas (results/ sí se versiona: es el entregable)
+results_smoke/
+
+# latencias crudas (se regeneran con los experimentos)
+results/lat/
